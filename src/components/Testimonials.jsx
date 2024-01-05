@@ -29,7 +29,7 @@ function Testimonials({ reviews }) {
 
     return (
         <div className='w-[500px] h-[420px] 
-    bg-white rounded-md mt-10 p-4'>
+    bg-white rounded-sm mt-10 p-4'>
             <Card review={reviews[index]} />
 
             <div className='flex justify-center gap-3 mb-5 mt-3'>
